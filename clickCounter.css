@@ -1,0 +1,45 @@
+body{
+    background-color: #E8F9FD;
+}
+
+#title{
+    text-align: center;
+    font-size: 9vh;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3D3C42;
+    margin: 10px;
+    border-radius: 30px;
+    background-color: #59CE8F;
+}
+#title:hover{
+    background-color: #3D3C42;
+    color: #59CE8F;
+}
+
+#point{
+    font-size: 10vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FF0063;
+    text-align: center;
+
+}
+button{
+    font-size: 5vh;
+    border-radius: 30px;
+    background-color: #F38181;
+    color: #FCBAD3;
+    font-family: cursive; 
+    margin-left: 35vh;
+    margin-right: 10vh;
+    width: 8em
+
+}
+button:hover{
+    background-color: #FCBAD3;
+    color: #F38181;
+}
+
+button:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
